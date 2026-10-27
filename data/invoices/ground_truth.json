@@ -1,0 +1,1952 @@
+[
+  {
+    "file": "001_classic.pdf",
+    "layout": "classic",
+    "facturx": false,
+    "expected_issue": null,
+    "invoice": {
+      "invoice_number": "VR-2026-0001",
+      "issue_date": "2026-09-15",
+      "due_date": "2026-10-15",
+      "currency": "EUR",
+      "seller": {
+        "name": "Volta Réseaux",
+        "siren": "524628195",
+        "vat_id": "FR39524628195",
+        "address": "4 avenue Jean Jaurès, 92000 Nanterre",
+        "iban": "FR7182199351819093786579754"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Licence logiciel (mois)",
+          "quantity": "8",
+          "unit_price": "84.48",
+          "vat_rate": "20",
+          "total_ht": "675.84"
+        }
+      ],
+      "total_ht": "675.84",
+      "total_vat": "135.17",
+      "total_ttc": "811.01"
+    }
+  },
+  {
+    "file": "002_siret.pdf",
+    "layout": "siret",
+    "facturx": false,
+    "expected_issue": null,
+    "invoice": {
+      "invoice_number": "NC-2026-0002",
+      "issue_date": "2026-10-10",
+      "due_date": "2026-11-09",
+      "currency": "EUR",
+      "seller": {
+        "name": "Nordica Cloud",
+        "siren": "623194875",
+        "vat_id": "FR41623194875",
+        "address": "88 bd Haussmann, 75008 Paris",
+        "iban": "FR2174911862527601895559797"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Borne de recharge 22 kW",
+          "quantity": "11",
+          "unit_price": "2356.54",
+          "vat_rate": "20",
+          "total_ht": "25921.94"
+        }
+      ],
+      "total_ht": "25921.94",
+      "total_vat": "5184.39",
+      "total_ttc": "31106.33"
+    }
+  },
+  {
+    "file": "003_classic_facturx.pdf",
+    "layout": "classic",
+    "facturx": true,
+    "expected_issue": null,
+    "invoice": {
+      "invoice_number": "AP-2026-0003",
+      "issue_date": "2026-09-08",
+      "due_date": "2026-10-08",
+      "currency": "EUR",
+      "seller": {
+        "name": "Atelier Pixel & Code",
+        "siren": "814710497",
+        "vat_id": "FR96814710497",
+        "address": "3 place Bellecour, 69002 Lyon",
+        "iban": "FR9646507529170342366712768"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Cartouche toner",
+          "quantity": "7",
+          "unit_price": "86.69",
+          "vat_rate": "20",
+          "total_ht": "606.83"
+        },
+        {
+          "description": "Licence logiciel (mois)",
+          "quantity": "6",
+          "unit_price": "82.03",
+          "vat_rate": "20",
+          "total_ht": "492.18"
+        },
+        {
+          "description": "Borne de recharge 22 kW",
+          "quantity": "12",
+          "unit_price": "2387.51",
+          "vat_rate": "20",
+          "total_ht": "28650.12"
+        },
+        {
+          "description": "Maintenance serveur mensuelle",
+          "quantity": "7",
+          "unit_price": "347.47",
+          "vat_rate": "20",
+          "total_ht": "2432.29"
+        }
+      ],
+      "total_ht": "32181.42",
+      "total_vat": "6436.28",
+      "total_ttc": "38617.70"
+    }
+  },
+  {
+    "file": "004_siret_facturx.pdf",
+    "layout": "siret",
+    "facturx": true,
+    "expected_issue": null,
+    "invoice": {
+      "invoice_number": "ES-2026-0004",
+      "issue_date": "2026-09-09",
+      "due_date": "2026-10-09",
+      "currency": "EUR",
+      "seller": {
+        "name": "ElecPro Services",
+        "siren": "426846564",
+        "vat_id": "FR24426846564",
+        "address": "27 rue Nationale, 59000 Lille",
+        "iban": "FR2421223307924402685995289"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Maintenance serveur mensuelle",
+          "quantity": "10",
+          "unit_price": "360.39",
+          "vat_rate": "20",
+          "total_ht": "3603.90"
+        }
+      ],
+      "total_ht": "3603.90",
+      "total_vat": "720.78",
+      "total_ttc": "4324.68"
+    }
+  },
+  {
+    "file": "005_classic.pdf",
+    "layout": "classic",
+    "facturx": false,
+    "expected_issue": null,
+    "invoice": {
+      "invoice_number": "BF-2026-0005",
+      "issue_date": "2026-10-09",
+      "due_date": "2026-11-08",
+      "currency": "EUR",
+      "seller": {
+        "name": "BuroPlus Fournitures",
+        "siren": "878666619",
+        "vat_id": "FR37878666619",
+        "address": "15 quai des Chartrons, 33000 Bordeaux",
+        "iban": "FR6760313721590109281590139"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Ramette papier A4",
+          "quantity": "9",
+          "unit_price": "5.60",
+          "vat_rate": "20",
+          "total_ht": "50.40"
+        },
+        {
+          "description": "Formation équipe (jour)",
+          "quantity": "1",
+          "unit_price": "1319.81",
+          "vat_rate": "20",
+          "total_ht": "1319.81"
+        },
+        {
+          "description": "Maintenance serveur mensuelle",
+          "quantity": "12",
+          "unit_price": "339.97",
+          "vat_rate": "20",
+          "total_ht": "4079.64"
+        },
+        {
+          "description": "Installation électrique (heure)",
+          "quantity": "9",
+          "unit_price": "73.94",
+          "vat_rate": "20",
+          "total_ht": "665.46"
+        }
+      ],
+      "total_ht": "6115.31",
+      "total_vat": "1223.06",
+      "total_ttc": "7338.37"
+    }
+  },
+  {
+    "file": "006_classic.pdf",
+    "layout": "classic",
+    "facturx": false,
+    "expected_issue": null,
+    "invoice": {
+      "invoice_number": "KÉ-2026-0006",
+      "issue_date": "2026-09-13",
+      "due_date": "2026-10-13",
+      "currency": "EUR",
+      "seller": {
+        "name": "Kinetik Énergie",
+        "siren": "224595710",
+        "vat_id": "FR19224595710",
+        "address": "9 rue Paradis, 13001 Marseille",
+        "iban": "FR1577774121547280385280841"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Audit de la qualité des données",
+          "quantity": "4",
+          "unit_price": "827.26",
+          "vat_rate": "20",
+          "total_ht": "3309.04"
+        },
+        {
+          "description": "Intégration API ERP",
+          "quantity": "4",
+          "unit_price": "785.46",
+          "vat_rate": "20",
+          "total_ht": "3141.84"
+        }
+      ],
+      "total_ht": "6450.88",
+      "total_vat": "1290.18",
+      "total_ttc": "7741.06"
+    }
+  },
+  {
+    "file": "007_siret.pdf",
+    "layout": "siret",
+    "facturx": false,
+    "expected_issue": null,
+    "invoice": {
+      "invoice_number": "OF-2026-0007",
+      "issue_date": "2026-09-09",
+      "due_date": "2026-10-09",
+      "currency": "EUR",
+      "seller": {
+        "name": "Orbis Formation",
+        "siren": "985253889",
+        "vat_id": "FR86985253889",
+        "address": "41 rue du Faubourg, 67000 Strasbourg",
+        "iban": "FR6853933633875004743957551"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Cartouche toner",
+          "quantity": "6",
+          "unit_price": "88.83",
+          "vat_rate": "20",
+          "total_ht": "532.98"
+        }
+      ],
+      "total_ht": "532.98",
+      "total_vat": "106.60",
+      "total_ttc": "639.58"
+    }
+  },
+  {
+    "file": "008_siret.pdf",
+    "layout": "siret",
+    "facturx": false,
+    "expected_issue": null,
+    "invoice": {
+      "invoice_number": "DC-2026-0008",
+      "issue_date": "2026-10-04",
+      "due_date": "2026-11-03",
+      "currency": "EUR",
+      "seller": {
+        "name": "Datalys Conseil",
+        "siren": "126018159",
+        "vat_id": "FR93126018159",
+        "address": "12 rue de la Paix, 75002 Paris",
+        "iban": "FR4783016613186091390996030"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Installation électrique (heure)",
+          "quantity": "9",
+          "unit_price": "69.88",
+          "vat_rate": "20",
+          "total_ht": "628.92"
+        },
+        {
+          "description": "Maintenance serveur mensuelle",
+          "quantity": "8",
+          "unit_price": "350.12",
+          "vat_rate": "20",
+          "total_ht": "2800.96"
+        },
+        {
+          "description": "Cartouche toner",
+          "quantity": "10",
+          "unit_price": "71.18",
+          "vat_rate": "20",
+          "total_ht": "711.80"
+        },
+        {
+          "description": "Ramette papier A4",
+          "quantity": "3",
+          "unit_price": "5.66",
+          "vat_rate": "20",
+          "total_ht": "16.98"
+        }
+      ],
+      "total_ht": "4158.66",
+      "total_vat": "831.73",
+      "total_ttc": "4990.39"
+    }
+  },
+  {
+    "file": "009_siret.pdf",
+    "layout": "siret",
+    "facturx": false,
+    "expected_issue": null,
+    "invoice": {
+      "invoice_number": "VR-2026-0009",
+      "issue_date": "2026-10-06",
+      "due_date": "2026-11-05",
+      "currency": "EUR",
+      "seller": {
+        "name": "Volta Réseaux",
+        "siren": "524628195",
+        "vat_id": "FR39524628195",
+        "address": "4 avenue Jean Jaurès, 92000 Nanterre",
+        "iban": "FR7182199351819093786579754"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Formation équipe (jour)",
+          "quantity": "11",
+          "unit_price": "1235.50",
+          "vat_rate": "20",
+          "total_ht": "13590.50"
+        }
+      ],
+      "total_ht": "13590.50",
+      "total_vat": "2718.10",
+      "total_ttc": "16308.60"
+    }
+  },
+  {
+    "file": "010_siret.pdf",
+    "layout": "siret",
+    "facturx": false,
+    "expected_issue": null,
+    "invoice": {
+      "invoice_number": "NC-2026-0010",
+      "issue_date": "2026-09-07",
+      "due_date": "2026-10-07",
+      "currency": "EUR",
+      "seller": {
+        "name": "Nordica Cloud",
+        "siren": "623194875",
+        "vat_id": "FR41623194875",
+        "address": "88 bd Haussmann, 75008 Paris",
+        "iban": "FR2174911862527601895559797"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Licence logiciel (mois)",
+          "quantity": "4",
+          "unit_price": "86.26",
+          "vat_rate": "20",
+          "total_ht": "345.04"
+        }
+      ],
+      "total_ht": "345.04",
+      "total_vat": "69.01",
+      "total_ttc": "414.05"
+    }
+  },
+  {
+    "file": "011_letter.pdf",
+    "layout": "letter",
+    "facturx": false,
+    "expected_issue": null,
+    "invoice": {
+      "invoice_number": "AP-2026-0011",
+      "issue_date": "2026-10-06",
+      "due_date": "2026-11-05",
+      "currency": "EUR",
+      "seller": {
+        "name": "Atelier Pixel & Code",
+        "siren": "814710497",
+        "vat_id": "FR96814710497",
+        "address": "3 place Bellecour, 69002 Lyon",
+        "iban": "FR9646507529170342366712768"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Développement pipeline dbt",
+          "quantity": "8",
+          "unit_price": "637.91",
+          "vat_rate": "20",
+          "total_ht": "5103.28"
+        }
+      ],
+      "total_ht": "5103.28",
+      "total_vat": "1020.66",
+      "total_ttc": "6123.94"
+    }
+  },
+  {
+    "file": "012_classic.pdf",
+    "layout": "classic",
+    "facturx": false,
+    "expected_issue": null,
+    "invoice": {
+      "invoice_number": "ES-2026-0012",
+      "issue_date": "2026-10-09",
+      "due_date": "2026-11-08",
+      "currency": "EUR",
+      "seller": {
+        "name": "ElecPro Services",
+        "siren": "426846564",
+        "vat_id": "FR24426846564",
+        "address": "27 rue Nationale, 59000 Lille",
+        "iban": "FR2421223307924402685995289"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Cartouche toner",
+          "quantity": "8",
+          "unit_price": "81.14",
+          "vat_rate": "20",
+          "total_ht": "649.12"
+        },
+        {
+          "description": "Intégration API ERP",
+          "quantity": "8",
+          "unit_price": "739.40",
+          "vat_rate": "20",
+          "total_ht": "5915.20"
+        }
+      ],
+      "total_ht": "6564.32",
+      "total_vat": "1312.86",
+      "total_ttc": "7877.18"
+    }
+  },
+  {
+    "file": "013_siret.pdf",
+    "layout": "siret",
+    "facturx": false,
+    "expected_issue": null,
+    "invoice": {
+      "invoice_number": "BF-2026-0013",
+      "issue_date": "2026-09-17",
+      "due_date": "2026-10-17",
+      "currency": "EUR",
+      "seller": {
+        "name": "BuroPlus Fournitures",
+        "siren": "878666619",
+        "vat_id": "FR37878666619",
+        "address": "15 quai des Chartrons, 33000 Bordeaux",
+        "iban": "FR6760313721590109281590139"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Borne de recharge 22 kW",
+          "quantity": "7",
+          "unit_price": "2223.67",
+          "vat_rate": "20",
+          "total_ht": "15565.69"
+        },
+        {
+          "description": "Maintenance serveur mensuelle",
+          "quantity": "8",
+          "unit_price": "313.28",
+          "vat_rate": "20",
+          "total_ht": "2506.24"
+        }
+      ],
+      "total_ht": "18071.93",
+      "total_vat": "3614.39",
+      "total_ttc": "21686.32"
+    }
+  },
+  {
+    "file": "014_classic.pdf",
+    "layout": "classic",
+    "facturx": false,
+    "expected_issue": null,
+    "invoice": {
+      "invoice_number": "KÉ-2026-0014",
+      "issue_date": "2026-09-14",
+      "due_date": "2026-10-14",
+      "currency": "EUR",
+      "seller": {
+        "name": "Kinetik Énergie",
+        "siren": "224595710",
+        "vat_id": "FR19224595710",
+        "address": "9 rue Paradis, 13001 Marseille",
+        "iban": "FR1577774121547280385280841"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Développement pipeline dbt",
+          "quantity": "3",
+          "unit_price": "626.13",
+          "vat_rate": "20",
+          "total_ht": "1878.39"
+        },
+        {
+          "description": "Maintenance serveur mensuelle",
+          "quantity": "3",
+          "unit_price": "365.40",
+          "vat_rate": "20",
+          "total_ht": "1096.20"
+        },
+        {
+          "description": "Formation équipe (jour)",
+          "quantity": "4",
+          "unit_price": "1304.00",
+          "vat_rate": "20",
+          "total_ht": "5216.00"
+        }
+      ],
+      "total_ht": "8190.59",
+      "total_vat": "1638.12",
+      "total_ttc": "9828.71"
+    }
+  },
+  {
+    "file": "015_classic.pdf",
+    "layout": "classic",
+    "facturx": false,
+    "expected_issue": null,
+    "invoice": {
+      "invoice_number": "OF-2026-0015",
+      "issue_date": "2026-09-11",
+      "due_date": "2026-10-11",
+      "currency": "EUR",
+      "seller": {
+        "name": "Orbis Formation",
+        "siren": "985253889",
+        "vat_id": "FR86985253889",
+        "address": "41 rue du Faubourg, 67000 Strasbourg",
+        "iban": "FR6853933633875004743957551"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Maintenance serveur mensuelle",
+          "quantity": "9",
+          "unit_price": "320.30",
+          "vat_rate": "20",
+          "total_ht": "2882.70"
+        },
+        {
+          "description": "Câble réseau Cat6 (rouleau)",
+          "quantity": "7",
+          "unit_price": "137.60",
+          "vat_rate": "20",
+          "total_ht": "963.20"
+        }
+      ],
+      "total_ht": "3845.90",
+      "total_vat": "769.18",
+      "total_ttc": "4615.08"
+    }
+  },
+  {
+    "file": "016_classic.pdf",
+    "layout": "classic",
+    "facturx": false,
+    "expected_issue": null,
+    "invoice": {
+      "invoice_number": "DC-2026-0016",
+      "issue_date": "2026-09-02",
+      "due_date": "2026-10-02",
+      "currency": "EUR",
+      "seller": {
+        "name": "Datalys Conseil",
+        "siren": "126018159",
+        "vat_id": "FR93126018159",
+        "address": "12 rue de la Paix, 75002 Paris",
+        "iban": "FR4783016613186091390996030"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Installation électrique (heure)",
+          "quantity": "12",
+          "unit_price": "61.51",
+          "vat_rate": "20",
+          "total_ht": "738.12"
+        },
+        {
+          "description": "Borne de recharge 22 kW",
+          "quantity": "6",
+          "unit_price": "2460.17",
+          "vat_rate": "20",
+          "total_ht": "14761.02"
+        },
+        {
+          "description": "Ramette papier A4",
+          "quantity": "5",
+          "unit_price": "6.17",
+          "vat_rate": "20",
+          "total_ht": "30.85"
+        }
+      ],
+      "total_ht": "15529.99",
+      "total_vat": "3106.00",
+      "total_ttc": "18635.99"
+    }
+  },
+  {
+    "file": "017_classic.pdf",
+    "layout": "classic",
+    "facturx": false,
+    "expected_issue": null,
+    "invoice": {
+      "invoice_number": "VR-2026-0017",
+      "issue_date": "2026-10-21",
+      "due_date": "2026-11-20",
+      "currency": "EUR",
+      "seller": {
+        "name": "Volta Réseaux",
+        "siren": "524628195",
+        "vat_id": "FR39524628195",
+        "address": "4 avenue Jean Jaurès, 92000 Nanterre",
+        "iban": "FR7182199351819093786579754"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Développement pipeline dbt",
+          "quantity": "5",
+          "unit_price": "629.19",
+          "vat_rate": "20",
+          "total_ht": "3145.95"
+        },
+        {
+          "description": "Cartouche toner",
+          "quantity": "3",
+          "unit_price": "76.44",
+          "vat_rate": "20",
+          "total_ht": "229.32"
+        }
+      ],
+      "total_ht": "3375.27",
+      "total_vat": "675.05",
+      "total_ttc": "4050.32"
+    }
+  },
+  {
+    "file": "018_siret.pdf",
+    "layout": "siret",
+    "facturx": false,
+    "expected_issue": null,
+    "invoice": {
+      "invoice_number": "NC-2026-0018",
+      "issue_date": "2026-10-14",
+      "due_date": "2026-11-13",
+      "currency": "EUR",
+      "seller": {
+        "name": "Nordica Cloud",
+        "siren": "623194875",
+        "vat_id": "FR41623194875",
+        "address": "88 bd Haussmann, 75008 Paris",
+        "iban": "FR2174911862527601895559797"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Câble réseau Cat6 (rouleau)",
+          "quantity": "9",
+          "unit_price": "151.18",
+          "vat_rate": "20",
+          "total_ht": "1360.62"
+        },
+        {
+          "description": "Maintenance serveur mensuelle",
+          "quantity": "12",
+          "unit_price": "314.16",
+          "vat_rate": "20",
+          "total_ht": "3769.92"
+        },
+        {
+          "description": "Installation électrique (heure)",
+          "quantity": "5",
+          "unit_price": "62.18",
+          "vat_rate": "20",
+          "total_ht": "310.90"
+        }
+      ],
+      "total_ht": "5441.44",
+      "total_vat": "1088.29",
+      "total_ttc": "6529.73"
+    }
+  },
+  {
+    "file": "019_classic.pdf",
+    "layout": "classic",
+    "facturx": false,
+    "expected_issue": null,
+    "invoice": {
+      "invoice_number": "AP-2026-0019",
+      "issue_date": "2026-09-05",
+      "due_date": "2026-10-05",
+      "currency": "EUR",
+      "seller": {
+        "name": "Atelier Pixel & Code",
+        "siren": "814710497",
+        "vat_id": "FR96814710497",
+        "address": "3 place Bellecour, 69002 Lyon",
+        "iban": "FR9646507529170342366712768"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Audit de la qualité des données",
+          "quantity": "5",
+          "unit_price": "782.80",
+          "vat_rate": "20",
+          "total_ht": "3914.00"
+        },
+        {
+          "description": "Ramette papier A4",
+          "quantity": "4",
+          "unit_price": "5.50",
+          "vat_rate": "20",
+          "total_ht": "22.00"
+        },
+        {
+          "description": "Développement pipeline dbt",
+          "quantity": "2",
+          "unit_price": "658.74",
+          "vat_rate": "20",
+          "total_ht": "1317.48"
+        }
+      ],
+      "total_ht": "5253.48",
+      "total_vat": "1050.70",
+      "total_ttc": "6304.18"
+    }
+  },
+  {
+    "file": "020_classic_facturx.pdf",
+    "layout": "classic",
+    "facturx": true,
+    "expected_issue": null,
+    "invoice": {
+      "invoice_number": "ES-2026-0020",
+      "issue_date": "2026-09-18",
+      "due_date": "2026-10-18",
+      "currency": "EUR",
+      "seller": {
+        "name": "ElecPro Services",
+        "siren": "426846564",
+        "vat_id": "FR24426846564",
+        "address": "27 rue Nationale, 59000 Lille",
+        "iban": "FR2421223307924402685995289"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Audit de la qualité des données",
+          "quantity": "12",
+          "unit_price": "815.67",
+          "vat_rate": "20",
+          "total_ht": "9788.04"
+        },
+        {
+          "description": "Installation électrique (heure)",
+          "quantity": "2",
+          "unit_price": "77.68",
+          "vat_rate": "20",
+          "total_ht": "155.36"
+        }
+      ],
+      "total_ht": "9943.40",
+      "total_vat": "1988.68",
+      "total_ttc": "11932.08"
+    }
+  },
+  {
+    "file": "021_classic_facturx.pdf",
+    "layout": "classic",
+    "facturx": true,
+    "expected_issue": null,
+    "invoice": {
+      "invoice_number": "BF-2026-0021",
+      "issue_date": "2026-09-20",
+      "due_date": "2026-10-20",
+      "currency": "EUR",
+      "seller": {
+        "name": "BuroPlus Fournitures",
+        "siren": "878666619",
+        "vat_id": "FR37878666619",
+        "address": "15 quai des Chartrons, 33000 Bordeaux",
+        "iban": "FR6760313721590109281590139"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Installation électrique (heure)",
+          "quantity": "8",
+          "unit_price": "69.70",
+          "vat_rate": "20",
+          "total_ht": "557.60"
+        },
+        {
+          "description": "Licence logiciel (mois)",
+          "quantity": "3",
+          "unit_price": "86.12",
+          "vat_rate": "20",
+          "total_ht": "258.36"
+        },
+        {
+          "description": "Intégration API ERP",
+          "quantity": "1",
+          "unit_price": "827.01",
+          "vat_rate": "20",
+          "total_ht": "827.01"
+        }
+      ],
+      "total_ht": "1642.97",
+      "total_vat": "328.59",
+      "total_ttc": "1971.56"
+    }
+  },
+  {
+    "file": "022_siret.pdf",
+    "layout": "siret",
+    "facturx": false,
+    "expected_issue": null,
+    "invoice": {
+      "invoice_number": "KÉ-2026-0022",
+      "issue_date": "2026-10-03",
+      "due_date": "2026-11-02",
+      "currency": "EUR",
+      "seller": {
+        "name": "Kinetik Énergie",
+        "siren": "224595710",
+        "vat_id": "FR19224595710",
+        "address": "9 rue Paradis, 13001 Marseille",
+        "iban": "FR1577774121547280385280841"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Installation électrique (heure)",
+          "quantity": "4",
+          "unit_price": "77.09",
+          "vat_rate": "20",
+          "total_ht": "308.36"
+        },
+        {
+          "description": "Borne de recharge 22 kW",
+          "quantity": "2",
+          "unit_price": "2544.35",
+          "vat_rate": "20",
+          "total_ht": "5088.70"
+        }
+      ],
+      "total_ht": "5397.06",
+      "total_vat": "1079.41",
+      "total_ttc": "6476.47"
+    }
+  },
+  {
+    "file": "023_letter.pdf",
+    "layout": "letter",
+    "facturx": false,
+    "expected_issue": null,
+    "invoice": {
+      "invoice_number": "OF-2026-0023",
+      "issue_date": "2026-10-05",
+      "due_date": "2026-11-04",
+      "currency": "EUR",
+      "seller": {
+        "name": "Orbis Formation",
+        "siren": "985253889",
+        "vat_id": "FR86985253889",
+        "address": "41 rue du Faubourg, 67000 Strasbourg",
+        "iban": "FR6853933633875004743957551"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Installation électrique (heure)",
+          "quantity": "6",
+          "unit_price": "64.58",
+          "vat_rate": "20",
+          "total_ht": "387.48"
+        },
+        {
+          "description": "Intégration API ERP",
+          "quantity": "12",
+          "unit_price": "779.19",
+          "vat_rate": "20",
+          "total_ht": "9350.28"
+        },
+        {
+          "description": "Licence logiciel (mois)",
+          "quantity": "3",
+          "unit_price": "89.10",
+          "vat_rate": "20",
+          "total_ht": "267.30"
+        },
+        {
+          "description": "Hébergement cloud (mois)",
+          "quantity": "6",
+          "unit_price": "274.91",
+          "vat_rate": "20",
+          "total_ht": "1649.46"
+        }
+      ],
+      "total_ht": "11654.52",
+      "total_vat": "2330.90",
+      "total_ttc": "13985.42"
+    }
+  },
+  {
+    "file": "024_classic_facturx.pdf",
+    "layout": "classic",
+    "facturx": true,
+    "expected_issue": null,
+    "invoice": {
+      "invoice_number": "DC-2026-0024",
+      "issue_date": "2026-09-01",
+      "due_date": "2026-10-01",
+      "currency": "EUR",
+      "seller": {
+        "name": "Datalys Conseil",
+        "siren": "126018159",
+        "vat_id": "FR93126018159",
+        "address": "12 rue de la Paix, 75002 Paris",
+        "iban": "FR4783016613186091390996030"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Ramette papier A4",
+          "quantity": "12",
+          "unit_price": "6.72",
+          "vat_rate": "20",
+          "total_ht": "80.64"
+        }
+      ],
+      "total_ht": "80.64",
+      "total_vat": "16.13",
+      "total_ttc": "96.77"
+    }
+  },
+  {
+    "file": "025_classic.pdf",
+    "layout": "classic",
+    "facturx": false,
+    "expected_issue": null,
+    "invoice": {
+      "invoice_number": "VR-2026-0025",
+      "issue_date": "2026-10-13",
+      "due_date": "2026-11-12",
+      "currency": "EUR",
+      "seller": {
+        "name": "Volta Réseaux",
+        "siren": "524628195",
+        "vat_id": "FR39524628195",
+        "address": "4 avenue Jean Jaurès, 92000 Nanterre",
+        "iban": "FR7182199351819093786579754"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Installation électrique (heure)",
+          "quantity": "12",
+          "unit_price": "66.18",
+          "vat_rate": "20",
+          "total_ht": "794.16"
+        },
+        {
+          "description": "Ramette papier A4",
+          "quantity": "8",
+          "unit_price": "5.68",
+          "vat_rate": "20",
+          "total_ht": "45.44"
+        },
+        {
+          "description": "Intégration API ERP",
+          "quantity": "5",
+          "unit_price": "728.25",
+          "vat_rate": "20",
+          "total_ht": "3641.25"
+        },
+        {
+          "description": "Licence logiciel (mois)",
+          "quantity": "5",
+          "unit_price": "88.20",
+          "vat_rate": "20",
+          "total_ht": "441.00"
+        }
+      ],
+      "total_ht": "4921.85",
+      "total_vat": "984.37",
+      "total_ttc": "5906.22"
+    }
+  },
+  {
+    "file": "026_classic_facturx.pdf",
+    "layout": "classic",
+    "facturx": true,
+    "expected_issue": null,
+    "invoice": {
+      "invoice_number": "NC-2026-0026",
+      "issue_date": "2026-09-21",
+      "due_date": "2026-10-21",
+      "currency": "EUR",
+      "seller": {
+        "name": "Nordica Cloud",
+        "siren": "623194875",
+        "vat_id": "FR41623194875",
+        "address": "88 bd Haussmann, 75008 Paris",
+        "iban": "FR2174911862527601895559797"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Audit de la qualité des données",
+          "quantity": "4",
+          "unit_price": "840.77",
+          "vat_rate": "20",
+          "total_ht": "3363.08"
+        },
+        {
+          "description": "Intégration API ERP",
+          "quantity": "1",
+          "unit_price": "708.36",
+          "vat_rate": "20",
+          "total_ht": "708.36"
+        }
+      ],
+      "total_ht": "4071.44",
+      "total_vat": "814.29",
+      "total_ttc": "4885.73"
+    }
+  },
+  {
+    "file": "027_siret.pdf",
+    "layout": "siret",
+    "facturx": false,
+    "expected_issue": null,
+    "invoice": {
+      "invoice_number": "AP-2026-0027",
+      "issue_date": "2026-10-12",
+      "due_date": "2026-11-11",
+      "currency": "EUR",
+      "seller": {
+        "name": "Atelier Pixel & Code",
+        "siren": "814710497",
+        "vat_id": "FR96814710497",
+        "address": "3 place Bellecour, 69002 Lyon",
+        "iban": "FR9646507529170342366712768"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Licence logiciel (mois)",
+          "quantity": "1",
+          "unit_price": "82.12",
+          "vat_rate": "20",
+          "total_ht": "82.12"
+        },
+        {
+          "description": "Installation électrique (heure)",
+          "quantity": "2",
+          "unit_price": "63.65",
+          "vat_rate": "20",
+          "total_ht": "127.30"
+        }
+      ],
+      "total_ht": "209.42",
+      "total_vat": "41.88",
+      "total_ttc": "251.30"
+    }
+  },
+  {
+    "file": "028_siret.pdf",
+    "layout": "siret",
+    "facturx": false,
+    "expected_issue": null,
+    "invoice": {
+      "invoice_number": "ES-2026-0028",
+      "issue_date": "2026-09-20",
+      "due_date": "2026-10-20",
+      "currency": "EUR",
+      "seller": {
+        "name": "ElecPro Services",
+        "siren": "426846564",
+        "vat_id": "FR24426846564",
+        "address": "27 rue Nationale, 59000 Lille",
+        "iban": "FR2421223307924402685995289"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Ramette papier A4",
+          "quantity": "10",
+          "unit_price": "6.84",
+          "vat_rate": "20",
+          "total_ht": "68.40"
+        },
+        {
+          "description": "Licence logiciel (mois)",
+          "quantity": "3",
+          "unit_price": "94.73",
+          "vat_rate": "20",
+          "total_ht": "284.19"
+        },
+        {
+          "description": "Développement pipeline dbt",
+          "quantity": "12",
+          "unit_price": "712.41",
+          "vat_rate": "20",
+          "total_ht": "8548.92"
+        }
+      ],
+      "total_ht": "8901.51",
+      "total_vat": "1780.30",
+      "total_ttc": "10681.81"
+    }
+  },
+  {
+    "file": "029_classic.pdf",
+    "layout": "classic",
+    "facturx": false,
+    "expected_issue": null,
+    "invoice": {
+      "invoice_number": "BF-2026-0029",
+      "issue_date": "2026-10-17",
+      "due_date": "2026-11-16",
+      "currency": "EUR",
+      "seller": {
+        "name": "BuroPlus Fournitures",
+        "siren": "878666619",
+        "vat_id": "FR37878666619",
+        "address": "15 quai des Chartrons, 33000 Bordeaux",
+        "iban": "FR6760313721590109281590139"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Maintenance serveur mensuelle",
+          "quantity": "1",
+          "unit_price": "353.99",
+          "vat_rate": "20",
+          "total_ht": "353.99"
+        },
+        {
+          "description": "Intégration API ERP",
+          "quantity": "12",
+          "unit_price": "808.55",
+          "vat_rate": "20",
+          "total_ht": "9702.60"
+        },
+        {
+          "description": "Hébergement cloud (mois)",
+          "quantity": "11",
+          "unit_price": "241.75",
+          "vat_rate": "20",
+          "total_ht": "2659.25"
+        },
+        {
+          "description": "Cartouche toner",
+          "quantity": "12",
+          "unit_price": "87.14",
+          "vat_rate": "20",
+          "total_ht": "1045.68"
+        }
+      ],
+      "total_ht": "13761.52",
+      "total_vat": "2752.30",
+      "total_ttc": "16513.82"
+    }
+  },
+  {
+    "file": "030_siret.pdf",
+    "layout": "siret",
+    "facturx": false,
+    "expected_issue": null,
+    "invoice": {
+      "invoice_number": "KÉ-2026-0030",
+      "issue_date": "2026-10-03",
+      "due_date": "2026-11-02",
+      "currency": "EUR",
+      "seller": {
+        "name": "Kinetik Énergie",
+        "siren": "224595710",
+        "vat_id": "FR19224595710",
+        "address": "9 rue Paradis, 13001 Marseille",
+        "iban": "FR1577774121547280385280841"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Ramette papier A4",
+          "quantity": "10",
+          "unit_price": "6.60",
+          "vat_rate": "20",
+          "total_ht": "66.00"
+        }
+      ],
+      "total_ht": "66.00",
+      "total_vat": "13.20",
+      "total_ttc": "79.20"
+    }
+  },
+  {
+    "file": "031_classic.pdf",
+    "layout": "classic",
+    "facturx": false,
+    "expected_issue": null,
+    "invoice": {
+      "invoice_number": "OF-2026-0031",
+      "issue_date": "2026-10-12",
+      "due_date": "2026-11-11",
+      "currency": "EUR",
+      "seller": {
+        "name": "Orbis Formation",
+        "siren": "985253889",
+        "vat_id": "FR86985253889",
+        "address": "41 rue du Faubourg, 67000 Strasbourg",
+        "iban": "FR6853933633875004743957551"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Développement pipeline dbt",
+          "quantity": "1",
+          "unit_price": "606.63",
+          "vat_rate": "20",
+          "total_ht": "606.63"
+        },
+        {
+          "description": "Audit de la qualité des données",
+          "quantity": "6",
+          "unit_price": "968.90",
+          "vat_rate": "20",
+          "total_ht": "5813.40"
+        }
+      ],
+      "total_ht": "6420.03",
+      "total_vat": "1284.01",
+      "total_ttc": "7704.04"
+    }
+  },
+  {
+    "file": "032_classic.pdf",
+    "layout": "classic",
+    "facturx": false,
+    "expected_issue": "TOTALS_MISMATCH",
+    "invoice": {
+      "invoice_number": "DC-2026-0032",
+      "issue_date": "2026-09-04",
+      "due_date": "2026-10-04",
+      "currency": "EUR",
+      "seller": {
+        "name": "Datalys Conseil",
+        "siren": "126018159",
+        "vat_id": "FR93126018159",
+        "address": "12 rue de la Paix, 75002 Paris",
+        "iban": "FR4783016613186091390996030"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Ramette papier A4",
+          "quantity": "9",
+          "unit_price": "6.42",
+          "vat_rate": "20",
+          "total_ht": "57.78"
+        }
+      ],
+      "total_ht": "57.78",
+      "total_vat": "11.56",
+      "total_ttc": "169.34"
+    }
+  },
+  {
+    "file": "033_siret_facturx.pdf",
+    "layout": "siret",
+    "facturx": true,
+    "expected_issue": "SIREN_INVALID",
+    "invoice": {
+      "invoice_number": "VR-2026-0033",
+      "issue_date": "2026-09-05",
+      "due_date": "2026-10-05",
+      "currency": "EUR",
+      "seller": {
+        "name": "Volta Réseaux",
+        "siren": "524658195",
+        "vat_id": "FR39524628195",
+        "address": "4 avenue Jean Jaurès, 92000 Nanterre",
+        "iban": "FR7182199351819093786579754"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Ramette papier A4",
+          "quantity": "9",
+          "unit_price": "5.50",
+          "vat_rate": "20",
+          "total_ht": "49.50"
+        }
+      ],
+      "total_ht": "49.50",
+      "total_vat": "9.90",
+      "total_ttc": "59.40"
+    }
+  },
+  {
+    "file": "034_classic.pdf",
+    "layout": "classic",
+    "facturx": false,
+    "expected_issue": "IBAN_CHANGED",
+    "invoice": {
+      "invoice_number": "NC-2026-0034",
+      "issue_date": "2026-09-05",
+      "due_date": "2026-10-05",
+      "currency": "EUR",
+      "seller": {
+        "name": "Nordica Cloud",
+        "siren": "623194875",
+        "vat_id": "FR41623194875",
+        "address": "88 bd Haussmann, 75008 Paris",
+        "iban": "FR5740931925449920707413748"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Licence logiciel (mois)",
+          "quantity": "12",
+          "unit_price": "94.56",
+          "vat_rate": "20",
+          "total_ht": "1134.72"
+        },
+        {
+          "description": "Cartouche toner",
+          "quantity": "8",
+          "unit_price": "80.86",
+          "vat_rate": "20",
+          "total_ht": "646.88"
+        },
+        {
+          "description": "Ramette papier A4",
+          "quantity": "7",
+          "unit_price": "5.52",
+          "vat_rate": "20",
+          "total_ht": "38.64"
+        }
+      ],
+      "total_ht": "1820.24",
+      "total_vat": "364.05",
+      "total_ttc": "2184.29"
+    }
+  },
+  {
+    "file": "035_classic.pdf",
+    "layout": "classic",
+    "facturx": false,
+    "expected_issue": "PAYMENT_TERMS",
+    "invoice": {
+      "invoice_number": "AP-2026-0035",
+      "issue_date": "2026-10-20",
+      "due_date": "2027-01-18",
+      "currency": "EUR",
+      "seller": {
+        "name": "Atelier Pixel & Code",
+        "siren": "814710497",
+        "vat_id": "FR96814710497",
+        "address": "3 place Bellecour, 69002 Lyon",
+        "iban": "FR9646507529170342366712768"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Installation électrique (heure)",
+          "quantity": "4",
+          "unit_price": "66.50",
+          "vat_rate": "20",
+          "total_ht": "266.00"
+        }
+      ],
+      "total_ht": "266.00",
+      "total_vat": "53.20",
+      "total_ttc": "319.20"
+    }
+  },
+  {
+    "file": "036_classic.pdf",
+    "layout": "classic",
+    "facturx": false,
+    "expected_issue": "TOTALS_MISMATCH",
+    "invoice": {
+      "invoice_number": "ES-2026-0036",
+      "issue_date": "2026-09-19",
+      "due_date": "2026-10-19",
+      "currency": "EUR",
+      "seller": {
+        "name": "ElecPro Services",
+        "siren": "426846564",
+        "vat_id": "FR24426846564",
+        "address": "27 rue Nationale, 59000 Lille",
+        "iban": "FR2421223307924402685995289"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Développement pipeline dbt",
+          "quantity": "7",
+          "unit_price": "619.10",
+          "vat_rate": "20",
+          "total_ht": "4333.70"
+        },
+        {
+          "description": "Installation électrique (heure)",
+          "quantity": "4",
+          "unit_price": "62.47",
+          "vat_rate": "20",
+          "total_ht": "249.88"
+        },
+        {
+          "description": "Borne de recharge 22 kW",
+          "quantity": "2",
+          "unit_price": "2235.69",
+          "vat_rate": "20",
+          "total_ht": "4471.38"
+        },
+        {
+          "description": "Intégration API ERP",
+          "quantity": "9",
+          "unit_price": "695.13",
+          "vat_rate": "20",
+          "total_ht": "6256.17"
+        }
+      ],
+      "total_ht": "15311.13",
+      "total_vat": "3062.23",
+      "total_ttc": "18473.36"
+    }
+  },
+  {
+    "file": "037_classic.pdf",
+    "layout": "classic",
+    "facturx": false,
+    "expected_issue": "IBAN_CHANGED",
+    "invoice": {
+      "invoice_number": "BF-2026-0037",
+      "issue_date": "2026-10-03",
+      "due_date": "2026-11-02",
+      "currency": "EUR",
+      "seller": {
+        "name": "BuroPlus Fournitures",
+        "siren": "878666619",
+        "vat_id": "FR37878666619",
+        "address": "15 quai des Chartrons, 33000 Bordeaux",
+        "iban": "FR3277642656515055613044516"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Développement pipeline dbt",
+          "quantity": "8",
+          "unit_price": "730.88",
+          "vat_rate": "20",
+          "total_ht": "5847.04"
+        },
+        {
+          "description": "Formation équipe (jour)",
+          "quantity": "8",
+          "unit_price": "1198.22",
+          "vat_rate": "20",
+          "total_ht": "9585.76"
+        },
+        {
+          "description": "Licence logiciel (mois)",
+          "quantity": "3",
+          "unit_price": "80.18",
+          "vat_rate": "20",
+          "total_ht": "240.54"
+        }
+      ],
+      "total_ht": "15673.34",
+      "total_vat": "3134.67",
+      "total_ttc": "18808.01"
+    }
+  },
+  {
+    "file": "038_classic.pdf",
+    "layout": "classic",
+    "facturx": false,
+    "expected_issue": null,
+    "invoice": {
+      "invoice_number": "KÉ-2026-0038",
+      "issue_date": "2026-09-05",
+      "due_date": "2026-10-05",
+      "currency": "EUR",
+      "seller": {
+        "name": "Kinetik Énergie",
+        "siren": "224595710",
+        "vat_id": "FR19224595710",
+        "address": "9 rue Paradis, 13001 Marseille",
+        "iban": "FR1577774121547280385280841"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Câble réseau Cat6 (rouleau)",
+          "quantity": "5",
+          "unit_price": "134.19",
+          "vat_rate": "20",
+          "total_ht": "670.95"
+        },
+        {
+          "description": "Intégration API ERP",
+          "quantity": "11",
+          "unit_price": "699.41",
+          "vat_rate": "20",
+          "total_ht": "7693.51"
+        },
+        {
+          "description": "Audit de la qualité des données",
+          "quantity": "3",
+          "unit_price": "817.98",
+          "vat_rate": "20",
+          "total_ht": "2453.94"
+        }
+      ],
+      "total_ht": "10818.40",
+      "total_vat": "2163.68",
+      "total_ttc": "12982.08"
+    }
+  },
+  {
+    "file": "039_siret_facturx.pdf",
+    "layout": "siret",
+    "facturx": true,
+    "expected_issue": null,
+    "invoice": {
+      "invoice_number": "OF-2026-0039",
+      "issue_date": "2026-09-13",
+      "due_date": "2026-10-13",
+      "currency": "EUR",
+      "seller": {
+        "name": "Orbis Formation",
+        "siren": "985253889",
+        "vat_id": "FR86985253889",
+        "address": "41 rue du Faubourg, 67000 Strasbourg",
+        "iban": "FR6853933633875004743957551"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Câble réseau Cat6 (rouleau)",
+          "quantity": "9",
+          "unit_price": "150.41",
+          "vat_rate": "20",
+          "total_ht": "1353.69"
+        },
+        {
+          "description": "Audit de la qualité des données",
+          "quantity": "12",
+          "unit_price": "782.12",
+          "vat_rate": "20",
+          "total_ht": "9385.44"
+        },
+        {
+          "description": "Cartouche toner",
+          "quantity": "12",
+          "unit_price": "79.21",
+          "vat_rate": "20",
+          "total_ht": "950.52"
+        }
+      ],
+      "total_ht": "11689.65",
+      "total_vat": "2337.93",
+      "total_ttc": "14027.58"
+    }
+  },
+  {
+    "file": "040_siret_facturx.pdf",
+    "layout": "siret",
+    "facturx": true,
+    "expected_issue": null,
+    "invoice": {
+      "invoice_number": "DC-2026-0040",
+      "issue_date": "2026-09-19",
+      "due_date": "2026-10-19",
+      "currency": "EUR",
+      "seller": {
+        "name": "Datalys Conseil",
+        "siren": "126018159",
+        "vat_id": "FR93126018159",
+        "address": "12 rue de la Paix, 75002 Paris",
+        "iban": "FR4783016613186091390996030"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Audit de la qualité des données",
+          "quantity": "8",
+          "unit_price": "853.16",
+          "vat_rate": "20",
+          "total_ht": "6825.28"
+        },
+        {
+          "description": "Installation électrique (heure)",
+          "quantity": "5",
+          "unit_price": "66.26",
+          "vat_rate": "20",
+          "total_ht": "331.30"
+        },
+        {
+          "description": "Maintenance serveur mensuelle",
+          "quantity": "12",
+          "unit_price": "347.10",
+          "vat_rate": "20",
+          "total_ht": "4165.20"
+        },
+        {
+          "description": "Hébergement cloud (mois)",
+          "quantity": "11",
+          "unit_price": "231.61",
+          "vat_rate": "20",
+          "total_ht": "2547.71"
+        }
+      ],
+      "total_ht": "13869.49",
+      "total_vat": "2773.90",
+      "total_ttc": "16643.39"
+    }
+  },
+  {
+    "file": "041_doublon_021_classic_facturx.pdf",
+    "layout": "classic",
+    "facturx": true,
+    "expected_issue": "DUPLICATE",
+    "invoice": {
+      "invoice_number": "BF-2026-0021",
+      "issue_date": "2026-09-20",
+      "due_date": "2026-10-20",
+      "currency": "EUR",
+      "seller": {
+        "name": "BuroPlus Fournitures",
+        "siren": "878666619",
+        "vat_id": "FR37878666619",
+        "address": "15 quai des Chartrons, 33000 Bordeaux",
+        "iban": "FR6760313721590109281590139"
+      },
+      "buyer": {
+        "name": "Ville Lumière Mobilités SAS",
+        "siren": "552081317",
+        "vat_id": "FR03552081317",
+        "address": "1 parvis de la Défense, 92800 Puteaux",
+        "iban": null
+      },
+      "lines": [
+        {
+          "description": "Installation électrique (heure)",
+          "quantity": "8",
+          "unit_price": "69.70",
+          "vat_rate": "20",
+          "total_ht": "557.60"
+        },
+        {
+          "description": "Licence logiciel (mois)",
+          "quantity": "3",
+          "unit_price": "86.12",
+          "vat_rate": "20",
+          "total_ht": "258.36"
+        },
+        {
+          "description": "Intégration API ERP",
+          "quantity": "1",
+          "unit_price": "827.01",
+          "vat_rate": "20",
+          "total_ht": "827.01"
+        }
+      ],
+      "total_ht": "1642.97",
+      "total_vat": "328.59",
+      "total_ttc": "1971.56"
+    }
+  }
+]

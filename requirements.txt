@@ -1,0 +1,9 @@
+pydantic>=2.6
+pdfplumber>=0.11
+pypdf>=5.0
+lxml>=5.0
+duckdb>=1.1
+mcp>=2.0
+anthropic>=0.40
+reportlab>=4.0
+pytest>=8.0
